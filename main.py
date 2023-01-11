@@ -18,13 +18,13 @@ if str:
         num = float(num)
         if num <= 7 and bool_cupon:
             less = num * 2.30 + 3.90 + cupon_var
-            print("your price is", round(less, 2), "EUR","addin cupon cost" ,cupon_var,"it is included in your price")
+            print("your price is", round(less, 2), "EUR","cupon cost" ,cupon_var,"it is included in your price")
         elif num <= 7:
             less = num * 2.30 + 3.90
             print("your price is", round(less, 2), "EUR")
         elif num >= 8 and bool_cupon:
             more = num * 1.65 + 3.90 + cupon_var
-            print("your price is", round(more, 2), "EUR","addin cupon cost" ,cupon_var,"it is included in your price")
+            print("your price is", round(more, 2), "EUR","cupon cost" ,cupon_var,"it is included in your price")
         elif num >= 8:
             more = num * 1.65 + 3.90
             print("your price is", round(more, 2), "EUR")
